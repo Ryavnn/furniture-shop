@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav class="nav-bar">
@@ -24,7 +25,7 @@
         </div>
         <div class="right-nav">
             <ul>
-                <li>Cart</li>
+                <li class="cart-btn">Cart <span id="counter">0</span></li>
                 <li>Log in</li>
             </ul>
         </div>
@@ -64,26 +65,34 @@
             <h4>Syltherine</h4>
             <p>Stylish cafe chair</p>
             <span class="price">$ 150</span>
+            <button class="add-cart">Add to cart</button>
         </div>
         <div class="product">
             <img src="coffee-table.jpg" alt="">
             <h4>Syltherine</h4>
             <p>Stylish cafe chair</p>
             <span class="price">$ 150</span>
+            <button class="add-cart">Add to cart</button>
         </div>
         <div class="product">
             <img src="coffee-table.jpg" alt="">
             <h4>Syltherine</h4>
             <p>Stylish cafe chair</p>
             <span class="price">$ 150</span>
+            <button class="add-cart">Add to cart</button>
         </div>
         <div class="product">
             <img src="coffee-table.jpg" alt="">
             <h4>Syltherine</h4>
             <p>Stylish cafe chair</p>
             <span class="price">$ 150</span>
+            <button class="add-cart">Add to cart</button>
         </div>
     </section>
+    <div class="cart">
+        <buttom class="close-cart-btn">close</buttom>
+    </div>
+    <div class="overlay"></div>
     <footer>
         <div class="footer-container">
             <div class="column-1">
@@ -117,5 +126,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
