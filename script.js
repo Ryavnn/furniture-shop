@@ -4,6 +4,16 @@ const openCart = document.querySelector(".cart-btn")
 const closeCart = document.querySelector(".close-cart-btn")
 const cart = document.querySelector(".cart")
 const overlay = document.querySelector(".overlay")
+
+function showSidebar(){
+    sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = "flex"
+
+}
+function hideSidebar(){
+    sidebar = document.querySelector('.sidebar' )
+    sidebar.style.display = "none"
+}
 let count = 0
 
 cartBtn.forEach(button =>{
